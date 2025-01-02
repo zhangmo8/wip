@@ -39,7 +39,7 @@ const themeGroup = [
 </script>
 <template>
   <var-button-group mode="outline" type="primary">
-    <var-button v-for="item in themeGroup" :key="item.title" @click="onChangeTheme(item.title)" :type="theme === item.title ? 'primary' : ''">
+    <var-button v-for="item in themeGroup" :key="item.title" @click="onChangeTheme(item.title)" :type="store === item.title ? 'primary' : ''">
       <span :class="item.icon"></span>
     </var-button>
   </var-button-group>

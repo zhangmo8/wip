@@ -13,6 +13,6 @@ async function greet() {
 <template>
   <main class="container">
     <theme-group></theme-group>
-    <h1 class="text-on-primary text-red text-md">tauri + vue + typescript</h1>
+    <h1 class="text-md">tauri + vue + typescript</h1>
   </main>
 </template>
