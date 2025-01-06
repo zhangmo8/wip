@@ -5,7 +5,7 @@ export default defineUsefulConfig({
   icons: {
     cdn: 'https://esm.sh/'
   },
-  remToPx: true,
+  remToPx: false,
 }, {
   presets: [
     presetVarlet()
